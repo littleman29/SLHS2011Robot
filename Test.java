@@ -1,8 +1,15 @@
-public class Test{
+import java.util.*;
+
+class Test{
 
 public static void main(String[] args){
 
-System.out.print("Hello World!");
+Scanner Reader = new Scanner(System.in);
+
+System.out.println("Enter your name:");
+String name = Reader.nextLine();
+
+System.out.println("Hello, " + name + "! Welcome to my test project!");
 
 }
 }
